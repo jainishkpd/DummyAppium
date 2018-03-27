@@ -1,0 +1,44 @@
+Mar 27, 2018 4:09:41 PM com.customeListners.TestNGListeners onStart
+INFO: --- Test Started --- : Test Dummy Application
+Mar 27, 2018 4:09:59 PM com.customeListners.TestNGListeners onTestStart
+INFO: --- Method Execution Started --- : addContactTest
+Mar 27, 2018 4:10:05 PM com.pages.LoginPage addContact
+INFO: Click on Add Contact Button
+Mar 27, 2018 4:10:05 PM com.customeListners.TestNGListeners onTestSuccess
+INFO: --- Method Execution Finished --- : addContactTest
+Mar 27, 2018 4:10:07 PM com.setUp.BaseSetup takeScreenShot
+INFO: Test Case is Pass ===> addContactTest
+Mar 27, 2018 4:10:07 PM com.customeListners.TestNGListeners onTestStart
+INFO: --- Method Execution Started --- : addUsernameTest
+Mar 27, 2018 4:10:24 PM com.testExecution.Logintest addUsernameTest
+INFO: Entered Username ==> Jainish
+Mar 27, 2018 4:10:24 PM com.customeListners.TestNGListeners onTestSuccess
+INFO: --- Method Execution Finished --- : addUsernameTest
+Mar 27, 2018 4:10:26 PM com.setUp.BaseSetup takeScreenShot
+INFO: Test Case is Pass ===> addUsernameTest
+Mar 27, 2018 4:10:26 PM com.customeListners.TestNGListeners onTestStart
+INFO: --- Method Execution Started --- : addPhoneNumberTest
+Mar 27, 2018 4:10:37 PM com.testExecution.Logintest addPhoneNumberTest
+INFO: Entered Phonenumber => 8866688666
+Mar 27, 2018 4:10:37 PM com.customeListners.TestNGListeners onTestSuccess
+INFO: --- Method Execution Finished --- : addPhoneNumberTest
+Mar 27, 2018 4:10:39 PM com.setUp.BaseSetup takeScreenShot
+INFO: Test Case is Pass ===> addPhoneNumberTest
+Mar 27, 2018 4:10:39 PM com.customeListners.TestNGListeners onTestStart
+INFO: --- Method Execution Started --- : addEmailIDTest
+Mar 27, 2018 4:10:49 PM com.testExecution.Logintest addEmailIDTest
+INFO: Entered emailid => jainish@gmail.com
+Mar 27, 2018 4:10:49 PM com.customeListners.TestNGListeners onTestSuccess
+INFO: --- Method Execution Finished --- : addEmailIDTest
+Mar 27, 2018 4:10:51 PM com.setUp.BaseSetup takeScreenShot
+INFO: Test Case is Pass ===> addEmailIDTest
+Mar 27, 2018 4:10:51 PM com.customeListners.TestNGListeners onTestStart
+INFO: --- Method Execution Started --- : saveDataTest
+Mar 27, 2018 4:10:52 PM com.pages.LoginPage saveData
+INFO: Click on Save Button
+Mar 27, 2018 4:10:52 PM com.customeListners.TestNGListeners onTestSuccess
+INFO: --- Method Execution Finished --- : saveDataTest
+Mar 27, 2018 4:10:54 PM com.setUp.BaseSetup takeScreenShot
+INFO: Test Case is Pass ===> saveDataTest
+Mar 27, 2018 4:11:00 PM com.customeListners.TestNGListeners onFinish
+INFO: --- Test Finished --- : Test Dummy Application

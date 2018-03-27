@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="75794" started-at="2018-03-27T10:29:02Z" finished-at="2018-03-27T10:30:18Z">
+    <groups>
+    </groups>
+    <test name="Test Dummy Application" duration-ms="75794" started-at="2018-03-27T10:29:02Z" finished-at="2018-03-27T10:30:18Z">
+      <class name="com.testExecution.Logintest">
+        <test-method status="PASS" signature="setLogger()[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="setLogger" is-config="true" duration-ms="15" started-at="2018-03-27T10:29:02Z" finished-at="2018-03-27T10:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setLogger -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="setup" is-config="true" duration-ms="15788" started-at="2018-03-27T10:29:02Z" finished-at="2018-03-27T10:29:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="beforeMethod" is-config="true" duration-ms="189" started-at="2018-03-27T10:29:18Z" finished-at="2018-03-27T10:29:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testExecution.Logintest.addContactTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addContactTest()[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="addContactTest" duration-ms="5871" started-at="2018-03-27T10:29:18Z" finished-at="2018-03-27T10:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addContactTest -->
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="takeScreenShot" is-config="true" duration-ms="2541" started-at="2018-03-27T10:29:24Z" finished-at="2018-03-27T10:29:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addContactTest status=SUCCESS method=Logintest.addContactTest()[pri:0, instance:com.testExecution.Logintest@c540f5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-03-27T10:29:26Z" finished-at="2018-03-27T10:29:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testExecution.Logintest.addUsernameTest() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addUsernameTest()[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="addUsernameTest" duration-ms="18028" started-at="2018-03-27T10:29:26Z" finished-at="2018-03-27T10:29:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUsernameTest -->
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="takeScreenShot" is-config="true" duration-ms="2058" started-at="2018-03-27T10:29:44Z" finished-at="2018-03-27T10:29:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addUsernameTest status=SUCCESS method=Logintest.addUsernameTest()[pri:0, instance:com.testExecution.Logintest@c540f5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2018-03-27T10:29:46Z" finished-at="2018-03-27T10:29:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testExecution.Logintest.addPhoneNumberTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addPhoneNumberTest()[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="addPhoneNumberTest" duration-ms="10717" started-at="2018-03-27T10:29:46Z" finished-at="2018-03-27T10:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addPhoneNumberTest -->
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="takeScreenShot" is-config="true" duration-ms="1906" started-at="2018-03-27T10:29:57Z" finished-at="2018-03-27T10:29:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addPhoneNumberTest status=SUCCESS method=Logintest.addPhoneNumberTest()[pri:0, instance:com.testExecution.Logintest@c540f5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method status="PASS" signature="addEmailIDTest()[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="addEmailIDTest" duration-ms="10729" started-at="2018-03-27T10:29:59Z" finished-at="2018-03-27T10:30:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmailIDTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-03-27T10:29:59Z" finished-at="2018-03-27T10:29:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testExecution.Logintest.addEmailIDTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="takeScreenShot" is-config="true" duration-ms="1882" started-at="2018-03-27T10:30:10Z" finished-at="2018-03-27T10:30:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addEmailIDTest status=SUCCESS method=Logintest.addEmailIDTest()[pri:0, instance:com.testExecution.Logintest@c540f5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method status="PASS" signature="saveDataTest()[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="saveDataTest" duration-ms="639" started-at="2018-03-27T10:30:12Z" finished-at="2018-03-27T10:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveDataTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-03-27T10:30:12Z" finished-at="2018-03-27T10:30:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.testExecution.Logintest.saveDataTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="takeScreenShot" is-config="true" duration-ms="1996" started-at="2018-03-27T10:30:12Z" finished-at="2018-03-27T10:30:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=saveDataTest status=SUCCESS method=Logintest.saveDataTest()[pri:0, instance:com.testExecution.Logintest@c540f5a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testExecution.Logintest@c540f5a]" name="tearDown" is-config="true" duration-ms="3403" started-at="2018-03-27T10:30:14Z" finished-at="2018-03-27T10:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testExecution.Logintest -->
+    </test> <!-- Test Dummy Application -->
+  </suite> <!-- Suite -->
+</testng-results>

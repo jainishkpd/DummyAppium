@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test Dummy Application"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="45.984">
+  <properties />
+  
+  
+            <testcase name="addContactTest" time="5.871" classname="com.testExecution.Logintest" />
+                <testcase name="addUsernameTest" time="18.028" classname="com.testExecution.Logintest" />
+                <testcase name="addEmailIDTest" time="10.729" classname="com.testExecution.Logintest" />
+                <testcase name="addPhoneNumberTest" time="10.717" classname="com.testExecution.Logintest" />
+                <testcase name="saveDataTest" time="0.639" classname="com.testExecution.Logintest" />
+      
+</testsuite>
