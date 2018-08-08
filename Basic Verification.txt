@@ -1,0 +1,117 @@
+Install Newman Plugin.
+
+1) Install NodeJs (https://nodejs.org/en/)
+   Set Environment variable path.
+   variable name = path
+   path = C:\Program Files\nodejs\node_modules\npm\bin
+
+2) Install newman
+   npm install -g newman
+
+Run Postman code with newman plugin.
+
+newman run Dummy.postman_collection.json -e Dummy.postman_environment.json
+
+Postman Code. 
+
+//Verify Status Code
+pm.test("Status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+//Verify Response Body Parameters
+pm.test("Veirfy Body Parameters", function () {
+    var jsonData = pm.response.json();
+    var foundIndex = -1;
+    var i;
+    var name = "Eve";
+    
+    for(i = 0; i < jsonData.data.length;i++){
+        if((jsonData.data[i].first_name == name) && (jsonData.data[i].id == 4)) {
+         foundIndex = i;
+         break;
+       }
+       pm.expect(jsonData.data[0].first_name).to.eql("Eve");
+       pm.expect(jsonData.data[0].id).to.eql(4);
+     }
+});
+
+//Print all required Response Body Parameters
+pm.test("Veirfy Body Parameters", function () {
+    var jsonData = pm.response.json();
+    var foundIndex = -1;
+    var i;
+    var name = "Eve";
+    
+    for(i = 0; i < jsonData.data.length;i++){
+        if((jsonData.data[i].first_name) && (jsonData.data[i].id)) {
+         console.log("I = "+i);
+         console.log(pm.expect(jsonData.data[i].first_name)); 
+         console.log(pm.expect(jsonData.data[i].id));
+       }
+      
+     }
+});
+
+//Post Body verification Name Parameters.
+pm.test("Body matches string", function () {
+ var name = 'morpheus';
+ var jsonData = pm.response.json();
+ pm.expect(jsonData.name).to.eql(name);
+// tests["Body contains name "] = 'morpheus' jsonData.name;
+});
+
+git init
+
+git add .
+
+git commit -m "Initial Commit"
+
+git remote add origin https://github.com/jainishkpd/Postman.git
+
+git push origin master
+ Enter username/Password
+ 
+git branch
+
+Create new branch and move to that branch
+
+git checkout -b next
+
+git pull origin next
+
+git status
+
+Change one file and save it.
+git add "Dummy.json"
+
+git commit -m "Change in next"
+
+git checkout -- file
+
+git checkout origin/master Basic Verification.txt
+
+//Unset git user name and email
+git config --global --unset user.name
+git config --global --unset user.email
+
+//Set git user name and email
+git config --global user.name "your username"
+git config --global user.email "your email"
+
+git config -l
+
+//Showing updated lines in file. 
+git diff
+
+//Dont want to commit but taking some pull request from branch
+git stash
+
+
+Jenkins with Postman
+---------------------------
+Generate only html report
+newman run "D:\RND\Jenkins\Jenkins_Home\workspace\Postman\Dummy.postman_collection.json" -e "D:\RND\Jenkins\Jenkins_Home\workspace\Postman\Dummy.postman_environment.json" --reporters html 
+
+Generate html report with Json & xml file for entire collection.
+newman run "D:\RND\Jenkins\Jenkins_Home\workspace\Postman\Dummy.postman_collection.json" -e "D:\RND\Jenkins\Jenkins_Home\workspace\Postman\Dummy.postman_environment.json" -r html,cli,json,junit
